@@ -26,3 +26,11 @@ print(archimedes(16))
 for sides in range(8, 100, 8):
     print(sides, archimedes(sides))
 
+# See the loop above. in addition to the value of pi print the difference
+# between the values calculated bt the archimedes function by math.pi
+# How many sides does it take to make the two close?
+
+for sides in range(10, 360, 10):
+    print(sides, archimedes(sides) - math.pi)
+
+print(archimedes(math.inf) - math.pi)
