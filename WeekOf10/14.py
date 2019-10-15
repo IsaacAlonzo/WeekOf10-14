@@ -46,7 +46,7 @@ print(acc)
 # Compute the sum of the first 100 even numbers
 
 acc = 0
-for val in range(2, 100):
+for val in range(0, 201, 2):
     acc = acc + val
 print(acc)
 # Compute the sum of the first 50 odd numbers
