@@ -50,6 +50,11 @@ for val in range(0, 201, 2):
     acc = acc + val
 print(acc)
 # Compute the sum of the first 50 odd numbers
+acc = 0
+for odd in range(1, 51, 2):
+    acc = acc + odd
+print(acc)
+
 # Compute the average of the first 100 odd numbers
 # Write a function that returns the average of the first N numbers, where
 #   N is a parameter
