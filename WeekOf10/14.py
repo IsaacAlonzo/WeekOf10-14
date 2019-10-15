@@ -33,4 +33,15 @@ for sides in range(8, 100, 8):
 for sides in range(10, 360, 10):
     print(sides, archimedes(sides) - math.pi)
 
-print(archimedes(math.inf) - math.pi)
+# Accumulators
+
+acc = 0
+for val in range(1, 6):
+    acc = acc + val
+
+print(acc)
+
+# acc was 0 the added plus 1 then made acc = 1 and repeated process
+
+
+
