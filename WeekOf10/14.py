@@ -56,6 +56,10 @@ for odd in range(1, 51, 2):
 print(acc)
 
 # Compute the average of the first 100 odd numbers
+acc = 0
+for odd in range(1, 200, 2):
+    acc = acc + odd
+print(acc/100)
 # Write a function that returns the average of the first N numbers, where
 #   N is a parameter
 # Write a function called factorial that computes the product of the first N
