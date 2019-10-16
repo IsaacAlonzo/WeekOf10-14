@@ -64,16 +64,21 @@ print(acc/100)
 #   N is a parameter
 def averageofnumber(N):
     acc = 0
-    for average in range(0, N + 1, 1):
+    for average in range(0, N, 1):
         acc = acc + average
-        print(acc/N)
+    print(acc/N)
 print(averageofnumber(50))
-
-
 
 
 # Write a function called factorial that computes the product of the first N
 #   numbers, where N is a parameter
+def product(N):
+    acc = 0
+    for product in range(0, N, 1):
+        acc = acc * product
+    print(acc/N)
+print(product(50))
+
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
 #   The first two numbers in the sequence are 1 and 1.  Compute the 10th
 #   Fibonacci number.
