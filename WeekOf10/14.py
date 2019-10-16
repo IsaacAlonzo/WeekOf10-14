@@ -82,5 +82,11 @@ product(50)
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
 #   The first two numbers in the sequence are 1 and 1.  Compute the 10th
 #   Fibonacci number.
+acc = 0
+for gold in range(1, 11):
+    acc = acc + 1
+print(acc)
+
+
 # Write a function to compute the Nth Fibonacci number, where N is a parameter.
 #   You may assume that N will be greater than or equal to 3.
