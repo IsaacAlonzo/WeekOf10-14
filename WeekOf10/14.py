@@ -76,9 +76,9 @@ def product(N):
     acc = 0
     for product in range(0, N, 1):
         acc = acc * product
-    print(acc/N)
 print(product(50))
 
+product(50)
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
 #   The first two numbers in the sequence are 1 and 1.  Compute the 10th
 #   Fibonacci number.
