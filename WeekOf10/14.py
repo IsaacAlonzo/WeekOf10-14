@@ -67,7 +67,7 @@ def averageofnumber(N):
     for average in range(0, N, 1):
         acc = acc + average
     print(acc/N)
-print(averageofnumber(50))
+averageofnumber(50)
 
 
 # Write a function called factorial that computes the product of the first N
@@ -76,9 +76,9 @@ def product(N):
     acc = 0
     for product in range(0, N, 1):
         acc = acc * product
-print(product(50))
-
+    print(acc)
 product(50)
+
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
 #   The first two numbers in the sequence are 1 and 1.  Compute the 10th
 #   Fibonacci number.
@@ -89,9 +89,13 @@ print(acc)
 
 # Write a function to compute the Nth Fibonacci number, where N is a parameter.
 #   You may assume that N will be greater than or equal to 3.
+
 def Fibon(N):
+    acc = 0
     for Fibon in range(1, N):
         acc = acc + Fibon
     print(acc)
 
-Fibon(3)
+print(Fibon(11))
+
+# not sure if right? I think it is wrong since it isn't adding previous values.
