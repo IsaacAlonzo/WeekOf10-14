@@ -84,9 +84,14 @@ product(50)
 #   Fibonacci number.
 acc = 0
 for gold in range(1, 11):
-    acc = acc + 1
+    acc = acc + gold
 print(acc)
-
 
 # Write a function to compute the Nth Fibonacci number, where N is a parameter.
 #   You may assume that N will be greater than or equal to 3.
+def Fibon(N):
+    for Fibon in range(1, N):
+        acc = acc + Fibon
+    print(acc)
+
+Fibon(3)
