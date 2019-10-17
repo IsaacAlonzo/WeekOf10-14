@@ -98,4 +98,4 @@ def Fibon(N):
 
 print(Fibon(11))
 
-# not sure if right? I think it is wrong since it isn't adding previous values.
+# not sure if right? I think it is wrong since it isn't adding the past 2 values
