@@ -187,18 +187,26 @@ def showMontePi(numDarts):
     t.goto(0, 1)
     t.pendown()
     t.goto(0, -1)
-    inCircle = 0
 
+    inCircle = 0
+    t.penup()
     for i in range(numDarts):
         x = random.random()
         y = random.random()
 
         distance = math.sqrt(x**2 + y**2)
+        t.goto(x, y)
 
         # ** = exponents
 
         if distance <= 1:
             inCircle = inCircle + 1
+            t.color("green")
+        else:
+            t.color("black")
+
+        t.dot()
 
     pi = inCircle / numDarts * 4
+    scn.exitonclick()
     return pi
