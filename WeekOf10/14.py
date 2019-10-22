@@ -99,3 +99,51 @@ def Fibon(N):
 print(Fibon(11))
 
 # not sure if right? I think it is wrong since it isn't adding the past 2 values
+
+# v Was gone so I copied it off of repository.
+# A Monte Carlo Simulation
+
+# random numbers
+
+import random
+
+print(random.random())
+
+# Boolean Expressions
+# <, <=, >, >=, ==, !=
+# Compound Boolean expressions
+# and, or, not
+
+dogWeight = 25
+print(dogWeight < 25)
+catWeight = 12
+print(dogWeight > 25 or catWeight <= 10)
+print(not catWeight <= 10)
+
+# Decision making skills
+
+alice = 20
+bob = 15
+carol = 25
+ans = 0
+if alice > 20:
+    if bob < 50:
+        ans = 150
+    else:
+        ans = 300
+else:
+    if carol > 500:
+        ans = 200
+    else:
+        ans = 75
+print(ans)
+
+value = 75
+if value > 100:
+    print("bigger than 100")
+elif value > 80:
+    print("bigger than 80")
+elif value > 45:
+    print("bigger than 45")
+else:
+    print("not bigger than much")
