@@ -183,13 +183,14 @@ def showMontePi(numDarts):
     t.goto(1, 0)
     inCircle = 0
 
-
+    t.penup()
     t.goto(0, 1)
     t.pendown()
     t.goto(0, -1)
 
     inCircle = 0
     t.penup()
+
     for i in range(numDarts):
         x = random.random()
         y = random.random()
@@ -210,3 +211,4 @@ def showMontePi(numDarts):
     pi = inCircle / numDarts * 4
     scn.exitonclick()
     return pi
+print(showMontePi(1000))
