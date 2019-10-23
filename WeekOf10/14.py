@@ -192,8 +192,8 @@ def showMontePi(numDarts):
     t.penup()
 
     for i in range(numDarts):
-        x = random.random()
-        y = random.random()
+        x = random.randrange(-100, 100) / 100
+        y = random.randrange(-100, 100) / 100
 
         distance = math.sqrt(x**2 + y**2)
         t.goto(x, y)
